@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass;
+    font-weight: 400, 700;
+    color: #fff;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feedback-card {
+    text-align: left;
+}
+
+.card {
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+}
+
+.star-icon {
+    margin-bottom: 10px;
+}
+
+#thank-you-card {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#selected-rating {
+    border: none;
+    background-color: hsl(217, 12%, 93%);
+    border-radius: 20%;
+    width: 150px;
+    margin: 10px;
+    color: #ff9500;
+    font-family: Overpass;
+}
+
+.thank-you-icon {
+    font-size: 40px;
+    color: #ff9500;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.rating {
+    background-color: hsl(217, 12%, 23%);
+    border: none;
+    color: hsl(217, 12%, 93%);
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Overpass;
+}
+
+.submit-div {
+    width: 300px;
+    align-items: center;
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: hsl(213, 19%, 18%);
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Overpass;
+    font-weight: 700;
+    width: 300px;
+}
+
+.rating:hover, .submit:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.rating.active {
+    background-color: hsl(25, 97%, 53%);
+}
